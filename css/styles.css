@@ -50,7 +50,6 @@ body {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  display: flex;
 }
 
 ul,
@@ -425,7 +424,7 @@ a {
 }
 
 .footer-logo {
-  display: flex;
+  display: inline-block;
   margin-bottom: 16px;
 }
 
@@ -449,6 +448,11 @@ a {
   max-width: 264px;
 }
 
+.footer .container{
+  display: flex;
+  align-items: baseline;
+}
+
 .footer-social {
   color: #ffffff;
   font-family: "Roboto";
@@ -457,7 +461,7 @@ a {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  display: block;
+
   margin-left: 20%;
 }
 
